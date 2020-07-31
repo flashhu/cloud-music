@@ -27,7 +27,7 @@ export const Tab = styled.div`
   background: ${style["theme-color"]};
 
   a {
-		flex: 1;
+	flex: 1;
     padding: 2px 0;
     font-size: 14px;
     color: #e4e4e4;
