@@ -12,9 +12,10 @@ const changeRecommendList = (data) => ({
     data: fromJS(data)
 });
 
+// boolean 非引用类型 不需fromJS
 const changeEnterLoading = (data) => ({
     type: actionTypes.CHANGE_ENTER_LOADING,
-    data: fromJS(data)
+    data
 })
 
 export const getBannerList = () => {
